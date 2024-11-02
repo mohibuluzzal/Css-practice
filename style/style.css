@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 h2{
     text-decoration: underline red;
     font-family: "Tiny5", sans-serif;
@@ -6,10 +10,15 @@ h2{
     font-weight: bolder;
     font-size: 60px;
     background-color: brown;
-    padding: 10px;
+    
 }
 .header-container{
     background-color: aqua;
-    height: 600px;
+    height: 500px;
     padding: 30px;
+    /* margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 30px auto;
 }
